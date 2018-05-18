@@ -1,0 +1,23 @@
+{
+  "presets": [
+    ["env", {
+      "modules": false,
+      "targets": {
+        "browsers": ["> 1%", "last 2 versions", "not ie <= 8"]
+      },
+      "test": {
+        "plugins": ["transform-es2015-modules-commonjs"]
+      }
+    }],
+    "stage-2"
+  ],
+  "env": {
+    "test": {
+      "plugins": ["transform-es2015-modules-commonjs"],
+      "presets": [
+        ["env", { "targets": { "node": "current" }}] 
+      ]
+    }
+  },
+  "plugins": ["transform-vue-jsx", "transform-runtime"]
+}
