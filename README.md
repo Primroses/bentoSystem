@@ -1,6 +1,16 @@
-# doubandemo
+# BentoSystem
 
-> A Vue.js project
+> A Vue.js project of Promise Du
+
+
+# 项目描述
+- 只是一个拿来练手的小项目，功能也不多。
+- 是基于Vue + Vue-router + less + fetch
+- router 用了懒加载
+- fetch 参考大牛封装的 / 有的是用 ajax+promise
+- 组件的引入没有(按import 然后 component 注册 最后 使用的三步走 而是直接使用)
+- 然后封装了一些自己用的组件
+
 
 ## Build Setup
 
@@ -18,4 +28,3 @@ npm run build
 npm run build --report
 ```
 
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
